@@ -12,7 +12,31 @@
                 <li><a href="location.html">location</a></li>
             </ul>
         </nav>
-        <h1>shop</h1>
-        <p>This will become the order form page.</p>
+        <h1>Order Your Coffee Here!</h1>
+        <form name="order form" method="post" action="orderform.html">
+            <table>
+                <tr>
+            <td><input size="50" maxlength="30" type="text" name="namebox" value="Name"></td>
+                </tr>
+                <tr>
+            <td><input size="50" maxlength="15" type="text" name="phonebox" value="phone number"></td>
+                </tr>
+                <tr>
+            <td><textarea name="order" rows="15" cols="100">
+                Enter your order here.
+            </textarea></td>
+                </tr>
+                <tr>
+            <td><select name="extras" size="2" multiple>
+                <option>Whip Cream</option>
+                <option>Shot of espresso</option>
+            </select></td>
+                </tr>
+                <tr>
+            <td><input type="reset" name="resetpg" value="clear">
+            <input type="submit" name="suborder" value="enter"></td>
+                </tr>
+        </table>
+        </form>
     </body>
 </html>
