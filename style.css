@@ -1,0 +1,105 @@
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(224, 217, 171);
+    line-height: 75px;
+    padding: 0px 100px;
+    position: sticky;
+    z-index: 1;
+    padding-bottom: 20px;
+}
+nav ul{
+    float: left;
+    position: sticky;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    color: rgb(73, 16, 0);
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 0px 200px;
+}
+nav ul li a:hover{
+    color: rgb(126, 0, 1);
+}
+nav ul li .active{
+    color: rgb(136, 62, 37);
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    color:rgb(224, 217, 171);
+    padding-bottom: 15px;
+    padding-top: 70px;
+}
+p{
+    font-size: 30px;
+    font-family: "athelas regular";
+    text-align: center;
+    color: rgb(224, 217, 171);
+}
+body{
+    background-color: rgb(73, 16, 0);
+    min-height: 100vh;
+    max-width: 100%;
+}
+.java_logo{
+    width: 300px;
+    height: 100px; 
+}
+.loco1{
+    margin-left: 600px;
+    margin-right: 200px;
+   border-radius: 25%;
+   height: 300px;
+   box-shadow: 4px 4px 8px rgb(43, 10, 1);
+}
+.loco2{
+    margin-right: 200px;
+    border-radius: 25%;
+    height: 300px;
+    box-shadow: 4px 4px 8px rgb(43, 10, 1);
+}
+.loco3{
+    border-radius: 25%;
+    height: 300px;
+    box-shadow: 4px 4px 8px rgb(43, 10, 1);
+}
+.latte{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10%;
+    box-shadow: 4px 4px 8px rgb(43, 10, 1);
+}
+.cookie{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10%;
+    box-shadow: 4px 4px 8px rgb(43, 10, 1);
+}
+.greenteam{
+    margin-left: 600px;
+    margin-right: 200px;
+   border-radius: 25%;
+   height: 300px;
+   box-shadow: 4px 4px 8px rgb(43, 10, 1);
+}
+.blueteam{
+    margin-right: 200px;
+    border-radius: 25%;
+    height: 300px;
+    box-shadow: 4px 4px 8px rgb(43, 10, 1);
+}
+.brownteam{
+    border-radius: 25%;
+    height: 300px;
+    box-shadow: 4px 4px 8px rgb(43, 10, 1);
+}
