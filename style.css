@@ -47,6 +47,12 @@ body{
     min-height: 100vh;
     max-width: 100%;
 }
+.input-control input:focus{
+    outline: 0;
+}
+.input-control.error input{
+    border-color:rgb(126, 0, 1);
+}
 .java_logo{
     width: 300px;
     height: 200px; 

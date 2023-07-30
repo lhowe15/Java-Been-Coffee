@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="shop.js"></script>
     </head>
     <body>
         <img class="java_logo" src="images/jb-logo1-transparent.jpg" alt="java been logo">
@@ -16,7 +17,7 @@
             </ul>
         </nav>
         <h1>Order Your Coffee Here!</h1>
-        <form name="order form" method="post" action="orderform.html">
+        <form name="order form" method="post" action="/action_page.php" onsubmit="return validateForm()">
             <table>
                 <tr>
             <td><input size="50" maxlength="30" type="text" name="namebox" value="Name"></td>
