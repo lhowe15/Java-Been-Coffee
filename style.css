@@ -21,7 +21,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 25px;
     text-transform: uppercase;
-    padding: 0px 200px;
+    padding: 0px 125px;
 }
 nav ul li a:hover{
     color: rgb(126, 0, 1);
@@ -62,6 +62,8 @@ form{
     width: 90%;
     max-width: 600px;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 form h2{
     color:rgb(126, 0, 1);
@@ -92,14 +94,8 @@ form button {
     width: 300px;
     height: 200px; 
 }
-.loco1{
-    margin-left: 600px;
-    margin-right: 200px;
-   border-radius: 25%;
-   height: 300px;
-   box-shadow: 4px 4px 8px rgb(43, 10, 1);
-}
 .loco2{
+    margin-left: 700px;
     margin-right: 200px;
     border-radius: 25%;
     height: 300px;
@@ -111,15 +107,13 @@ form button {
     box-shadow: 4px 4px 8px rgb(43, 10, 1);
 }
 .latte{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 400px;
+    margin-right: 450px;
     width: 25%;
     border-radius: 10%;
     box-shadow: 4px 4px 8px rgb(43, 10, 1);
 }
 .cookie{
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
@@ -127,7 +121,7 @@ form button {
     box-shadow: 4px 4px 8px rgb(43, 10, 1);
 }
 .greenteam{
-    margin-left: 600px;
+    margin-left: 500px;
     margin-right: 200px;
    border-radius: 25%;
    height: 300px;
@@ -142,5 +136,13 @@ form button {
 .brownteam{
     border-radius: 25%;
     height: 300px;
+    box-shadow: 4px 4px 8px rgb(43, 10, 1);
+}
+.sign{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 10%;
     box-shadow: 4px 4px 8px rgb(43, 10, 1);
 }
