@@ -146,3 +146,32 @@ form button {
     border-radius: 10%;
     box-shadow: 4px 4px 8px rgb(43, 10, 1);
 }
+.wrapper-main{
+    width: 100%;
+    margin: 0 auto;
+}
+@media (max-width: 600px){
+    .wrapper-main{
+        width: 100%;
+    }
+}
+@media (min-width: 601px){
+    .wrapper-main {
+        width: 100%;
+    }
+}
+@media (min-width: 768px){
+    .wrapper-main {
+        width: 100%;
+    }
+}
+@media (min-width: 992px){
+    .wrapper-main {
+        width: 100%;
+    }
+}
+@media (min-width: 1200px){
+    .wrapper-main {
+        width: 100%;
+    }
+}
